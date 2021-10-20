@@ -39,17 +39,19 @@
       <div>
         <h2>Book Your <span class="text-danger">Vaccination Today</span></h2>
         <div class="container bg-light p-5">
+          <form action="search.html">
               <div class="row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="PIN Code" aria-label="PIN Code">
+                  <input type="text" class="form-control" placeholder="PIN Code" aria-label="PIN Code" id="PIN" name="PIN">
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="District Code" aria-label="District Code">
+                  <input type="text" class="form-control" placeholder="District Code" aria-label="District Code" id="dis" name="dis">
                 </div>
                 <div class="col">
-                  <a href="#" class="btn btn-danger" id="searchbtn">Search</a>
+                  <button class="btn btn-danger">Search</a>
                 </div>
               </div>
+            </form>
         </div>
       </div>
     </div>
@@ -105,7 +107,7 @@
 
   <!--FOOTER-->
   <footer>
-    <div class="container-fluid bg-dark text-center text-light p-3">
+    <div class="container-fluid bg-dark text-center text-light p-4">
       <p class="m-3">&copy; University of East London - all rights reserved</p>
     </div>
   </footer>
