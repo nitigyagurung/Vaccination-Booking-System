@@ -3,10 +3,14 @@ console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 
 const PIN = urlParams.get('PIN');
-alert(PIN);
+
 
 const dis = urlParams.get('dis')
-alert(dis);
+
+
+document.getElementById("demo1").innerHTML= "Your Pin Code is:"   +PIN ;
+document.getElementById("demo2").innerHTML= "Your District Code is:"   +dis ;
+ 
  
 
   
